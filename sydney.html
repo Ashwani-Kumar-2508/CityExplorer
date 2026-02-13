@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney | City Explorer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-geo-alt-fill"></i> City Explorer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="cities.html">Cities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="detail-hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <h1 class="display-4 fw-800 text-primary mb-2">Sydney</h1>
+                    <h4 class="text-muted mb-4">The Harbour City</h4>
+                    <p class="lead text-muted mb-4">Sydney is Australia's largest and most iconic city, known for its
+                        stunning harbor, beautiful beaches, and vibrant cultural scene. The city perfectly balances
+                        urban sophistication with outdoor lifestyle, offering world-class dining, arts, and
+                        entertainment alongside pristine beaches and natural beauty.</p>
+                    <a href="https://www.sydney.com/" target="_blank" class="btn btn-primary px-4 py-2">Explore More
+                        Sites</a>
+                </div>
+                <div class="col-lg-5">
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600" alt="Sydney"
+                        class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Culture Section -->
+    <section class="container my-5 py-4">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="fw-bold mb-4"><i class="bi bi-people-fill text-primary me-2"></i>Culture & Traditions</h2>
+                <p class="text-muted lead">Sydney's culture reflects Australia's laid-back, outdoor-oriented lifestyle
+                    combined with cosmopolitan sophistication. The city embraces its Indigenous heritage while
+                    celebrating its multicultural population. Sydneysiders love the beach, with surf culture being an
+                    integral part of life. The arts scene is thriving, with numerous galleries, theaters, and music
+                    venues. Sports, particularly rugby, cricket, and Australian Rules football, are passions. Sydney's
+                    culture values work-life balance, friendliness, and enjoying the natural environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cuisine Section -->
+    <section class="container my-5 py-4 bg-light rounded-4 p-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="fw-bold mb-4"><i class="bi bi-cup-hot-fill text-primary me-2"></i>Cuisine & Food</h2>
+                <p class="text-muted lead mb-4">Sydney's food scene is diverse and innovative, influenced by its
+                    multicultural population and access to fresh, high-quality ingredients from land and sea.</p>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <h5 class="fw-bold mb-2">Fresh Seafood</h5>
+                            <p class="text-muted small mb-0">Sydney Rock oysters, barramundi, and prawns</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <h5 class="fw-bold mb-2">Meat Pies</h5>
+                            <p class="text-muted small mb-0">Classic Australian savory pies with various fillings</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <h5 class="fw-bold mb-2">Lamingtons</h5>
+                            <p class="text-muted small mb-0">Sponge cake coated in chocolate and coconut</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <h5 class="fw-bold mb-2">Flat White</h5>
+                            <p class="text-muted small mb-0">Australian coffee specialty with microfoam milk</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="p-3 bg-white rounded-3 shadow-sm h-100">
+                            <h5 class="fw-bold mb-2">Pavlova</h5>
+                            <p class="text-muted small mb-0">Meringue dessert topped with fruit and cream</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Places -->
+    <section class="container my-5 py-5">
+        <h2 class="text-center fw-bold mb-5"><i class="bi bi-pin-map-fill text-primary me-2"></i>Famous Places to Visit
+        </h2>
+        <div class="places-list">
+            <!-- Sydney Opera House -->
+            <div class="place-item">
+                <div class="place-img">
+                    <img src="https://images.unsplash.com/photo-1523059623039-a9ed027e7fad?q=80&w=600"
+                        alt="Sydney Opera House">
+                </div>
+                <div class="place-info">
+                    <h3 class="fw-bold mb-3">Sydney Opera House</h3>
+                    <p class="text-muted">An architectural masterpiece and UNESCO World Heritage site, this iconic
+                        performing arts center hosts over 1,500 performances annually. Its distinctive sail-like design
+                        is recognized worldwide.</p>
+                    <ul class="list-unstyled small mt-4">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Bennelong Point, Sydney NSW
+                            2000</li>
+                        <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i>Tours daily 9:00 AM - 5:00 PM
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Sydney Harbour Bridge -->
+            <div class="place-item">
+                <div class="place-img">
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                        alt="Sydney Harbour Bridge">
+                </div>
+                <div class="place-info">
+                    <h3 class="fw-bold mb-3">Sydney Harbour Bridge</h3>
+                    <p class="text-muted">An iconic steel arch bridge offering spectacular views. Adventurous visitors
+                        can climb to the summit for panoramic vistas of the harbor and city skyline.</p>
+                    <ul class="list-unstyled small mt-4">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Sydney Harbour Bridge,
+                            Sydney NSW</li>
+                        <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i>Bridge Climb daily 8:00 AM -
+                            6:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bondi Beach -->
+            <div class="place-item">
+                <div class="place-img">
+                    <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?q=80&w=600"
+                        alt="Bondi Beach">
+                </div>
+                <div class="place-info">
+                    <h3 class="fw-bold mb-3">Bondi Beach</h3>
+                    <p class="text-muted">Australia's most famous beach, known for its golden sand, great surf, and
+                        vibrant beach culture. Perfect for swimming, surfing, or relaxing while soaking up the sun.</p>
+                    <ul class="list-unstyled small mt-4">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Bondi Beach, Sydney NSW
+                            2026</li>
+                        <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i>24/7</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Royal Botanic Garden -->
+            <div class="place-item">
+                <div class="place-img">
+                    <img src="https://images.unsplash.com/photo-1523059623039-a9ed027e7fad?q=80&w=600"
+                        alt="Royal Botanic Garden">
+                </div>
+                <div class="place-info">
+                    <h3 class="fw-bold mb-3">Royal Botanic Garden</h3>
+                    <p class="text-muted">A stunning 30-hectare garden featuring native and exotic plants, with
+                        spectacular harbor views and peaceful walking paths. A perfect escape in the heart of the city.
+                    </p>
+                    <ul class="list-unstyled small mt-4">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i>Mrs Macquaries Rd, Sydney
+                            NSW 2000</li>
+                        <li class="mb-2"><i class="bi bi-clock-fill text-primary me-2"></i>Daily 7:00 AM - sunset</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4">
+                    <a href="#" class="footer-brand h4 text-decoration-none">
+                        <i class="bi bi-geo-alt-fill"></i> City Explorer
+                    </a>
+                    <p class="text-muted small mt-3">Exploring the heart of cities, one place at a time. Your journey
+                        starts here with the best city guide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-links">
+                        <h6>Explore</h6>
+                        <ul>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="#">Featured Places</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h6>Contact Us</h6>
+                        <ul class="text-muted small">
+                            <li><i class="bi bi-envelope me-2"></i> ashwanikumar821098@gmail.com</li>
+                            <li><i class="bi bi-telephone me-2"></i> +91 8210985850</li>
+                            <li><i class="bi bi-geo-alt me-2"></i> Lawgate LPU Phagwara , Punjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center text-muted small py-3">
+                &copy; 2026 City Explorer. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

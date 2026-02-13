@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Services | City Explorer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-geo-alt-fill"></i> City Explorer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cities.html">Cities</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5 py-5">
+        <div class="text-center mb-5">
+            <h1 class="fw-800 display-4 mb-3">City Services</h1>
+            <p class="text-muted mx-auto" style="max-width: 800px;">Explore the essential services provided by your
+                city, designed to enhance the quality of life for residents and visitors alike. From transportation to
+                emergency support, find all the practical information you need.</p>
+        </div>
+
+        <!-- Public Transportation -->
+        <section class="service-section">
+            <h2 class="fw-bold mb-4">Public Transportation</h2>
+            <p class="text-muted mb-4">Navigate the city with ease using our comprehensive public transport options.
+                Find schedules, routes, and real-time updates for buses, metro, and bike shares.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-bus-front service-icon"></i>
+                        <h5>Bus & Metro Routes</h5>
+                        <p class="text-muted small">Detailed information on all bus and metro lines, including
+                            schedules, stops, and real-time tracking to help you navigate the city efficiently. Explore
+                            different routes and plan your journey with ease.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">View Schedules</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-bicycle service-icon"></i>
+                        <h5>Bike Share Programs</h5>
+                        <p class="text-muted small">Discover eco-friendly ways to travel with our city's bike share
+                            programs. Find docking stations, rental options, and safety guidelines for an enjoyable
+                            ride. Perfect for short commutes or leisurely exploration.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Find Stations</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-p-square service-icon"></i>
+                        <h5>Parking & Garages</h5>
+                        <p class="text-muted small">Locate available parking spaces and city-managed garages.
+                            Information includes pricing, operating hours, and accessibility options. Make parking
+                            stress-free in busy areas.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Check Availability</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Services -->
+        <section class="service-section">
+            <h2 class="fw-bold mb-4">Emergency Services</h2>
+            <p class="text-muted mb-4">Your safety is our priority. Access critical information for police, fire, and
+                medical emergencies, along with valuable prevention tips and community safety programs.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-shield-shaded service-icon"></i>
+                        <h5>Police Department</h5>
+                        <p class="text-muted small">Contact information for the local police department, including city
+                            emergency lines and administrative services. Learn about community safety programs and how
+                            to report non-urgent incidents.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Contact Police</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-fire service-icon"></i>
+                        <h5>Fire & Rescue</h5>
+                        <p class="text-muted small">Details for the department's emergency rescue services. Learn about
+                            fire prevention, safety tips, and what to do in case of a fire or other hazardous
+                            situations. Your safety is our priority.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Emergency Services</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-hospital service-icon"></i>
+                        <h5>Medical Assistance</h5>
+                        <p class="text-muted small">Information on local hospitals, clinics, and ambulance services.
+                            Find emergency room locations, urgent care facilities, and general health resources for
+                            residents and visitors. Quick access to healthcare when you need it.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Find Hospitals</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Waste Management -->
+        <section class="service-section">
+            <h2 class="fw-bold mb-4">Waste Management</h2>
+            <p class="text-muted mb-4">Learn about the city's commitment to sustainability through efficient waste
+                collection and recycling programs. Find schedules, guidelines, and hazardous waste disposal information.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-recycle service-icon"></i>
+                        <h5>Recycling Programs</h5>
+                        <p class="text-muted small">Guidelines and schedules for residential and commercial recycling.
+                            Learn what materials are accepted (drop-off locations), and how to properly sort your
+                            recyclables to support environmental efforts.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Recycling Guide</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-trash service-icon"></i>
+                        <h5>Trash Collection</h5>
+                        <p class="text-muted small">Weekly trash collection schedules, bulk waste pickup information,
+                            and local regulations for city residents. Ensure proper waste disposal and maintain a clean
+                            neighborhood.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Area Schedule</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-exclamation-triangle service-icon"></i>
+                        <h5>Hazardous Waste</h5>
+                        <p class="text-muted small">Information on safe disposal methods for hazardous household items,
+                            including electronics, chemicals, and batteries. Find designated collection sites and dates
+                            for proper handling.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Disposal Info</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parks & Recreation -->
+        <section class="service-section">
+            <h2 class="fw-bold mb-4">Parks & Recreation</h2>
+            <p class="text-muted mb-4">Explore the city's vibrant green spaces, community centers, and sports
+                facilities. Discover programs and activities for all ages to promote health, wellness, and community
+                engagement.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-tree service-icon"></i>
+                        <h5>Parks & Green Spaces</h5>
+                        <p class="text-muted small">Explore the city's beautiful parks, nature reserves, and green
+                            spaces. Find amenities like playgrounds, walking paths, and picnic areas for outdoor
+                            enjoyment. Connect with nature right in the city.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Discover Parks</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-people-fill service-icon"></i>
+                        <h5>Community Centers</h5>
+                        <p class="text-muted small">Information on community centers offering various programs, classes,
+                            and events for all ages. From fitness to arts and crafts, find activities that enrich your
+                            life and connect you with others.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Daily Programs</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-dribbble service-icon"></i>
+                        <h5>Sports Facilities</h5>
+                        <p class="text-muted small">Details on public sports facilities, including tennis courts,
+                            swimming pools, and sports fields. Find reservation information and league opportunities for
+                            a healthy and active lifestyle.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Book a Facility</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Administrative Services -->
+        <section class="service-section">
+            <h2 class="fw-bold mb-4">Administrative Services</h2>
+            <p class="text-muted mb-4">Access essential city administration resources, including permits, licenses, tax
+                information, and educational support. Your guide to seamless interaction with city government.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-building service-icon"></i>
+                        <h5>City Hall & Permits</h5>
+                        <p class="text-muted small">Information on city government services, including building permits,
+                            business licenses, and official registrations. Access essential forms and reach out to
+                            administrative departments for seamless interaction with the city.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">View Services</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-cash-stack service-icon"></i>
+                        <h5>Tax & Finance</h5>
+                        <p class="text-muted small">Understand city tax regulations, payment options, and financial
+                            assistance programs. Access resources for property taxes, business taxes, and budgeting
+                            advice. Manage your finances effectively.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Financial Resources</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-card">
+                        <i class="bi bi-mortarboard service-icon"></i>
+                        <h5>Education & Schools</h5>
+                        <p class="text-muted small">Details on public and private educational institutions, school
+                            district information, and adult learning programs. Resources for students, parents, academic
+                            calendars, and educational support.</p>
+                        <a href="#" class="text-decoration-none fw-bold small">Find School</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer content same as other pages -->
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4">
+                    <a href="#" class="footer-brand h4 text-decoration-none">
+                        <i class="bi bi-geo-alt-fill"></i> City Explorer
+                    </a>
+                    <p class="text-muted small mt-3">Exploring the heart of cities, one place at a time. Your journey
+                        starts here with the best city guide.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="footer-links">
+                        <h6>Explore</h6>
+                        <ul>
+                            <li><a href="cities.html">Cities</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="#">Featured Places</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-links">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h6>Contact Us</h6>
+                        <ul class="text-muted small">
+                            <li><i class="bi bi-envelope me-2"></i> ashwanikumar821098@gmail.com</li>
+                            <li><i class="bi bi-telephone me-2"></i> +91 8210985850</li>
+                            <li><i class="bi bi-geo-alt me-2"></i> Lawgate LPU Phagwara , Punjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center text-muted small py-3">
+                &copy; 2026 City Explorer. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
