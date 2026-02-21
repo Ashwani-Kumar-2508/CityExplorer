@@ -1,3 +1,10 @@
+/*
+* City Explorer - Modern Urban Guide
+* Author: Ashwani Kumar
+* Description: Core stylesheet for City Explorer project.
+* Built with modern CSS best practices.
+*/
+
 :root {
     --primary-color: #00A3FF;
     --primary-gradient: linear-gradient(135deg, #00A3FF 0%, #0077B6 100%);
@@ -17,6 +24,7 @@ body {
     line-height: 1.6;
 }
 
+/* --- Navigation Styles --- */
 .navbar {
     padding: 1rem 0;
     background-color: var(--white);
@@ -42,6 +50,7 @@ body {
     color: var(--primary-color) !important;
 }
 
+/* --- Hero & Promotional Sections --- */
 .hero-section {
     background: var(--primary-gradient);
     color: var(--white);
@@ -79,6 +88,7 @@ body {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
 
+/* --- Buttons & UI Elements --- */
 .btn-primary {
     background-color: var(--primary-color);
     border: none;
@@ -109,6 +119,7 @@ body {
     margin-bottom: 1rem;
 }
 
+/* --- Component Cards --- */
 .card {
     border: none;
     border-radius: 15px;
@@ -141,6 +152,7 @@ body {
     font-size: 0.9rem;
 }
 
+/* --- Footer & Site Navigation --- */
 .footer {
     background-color: #F8F9FA;
     padding: 60px 0 20px;
@@ -212,7 +224,7 @@ body {
     border-color: var(--primary-color);
 }
 
-/* About Page Styles */
+/* --- Page Specific Sections --- */
 .about-hero {
     text-align: center;
     padding: 80px 0;
@@ -248,7 +260,6 @@ body {
     margin-bottom: 1.5rem;
 }
 
-/* Service Page Styles */
 .service-section {
     margin-bottom: 60px;
 }
@@ -267,12 +278,12 @@ body {
     margin-bottom: 1rem;
 }
 
-/* City Detail Page */
 .detail-hero {
     padding: 60px 0;
     background-color: #E3F2FD;
 }
 
+/* --- Place Detail Components --- */
 .place-item {
     display: flex;
     gap: 2rem;
@@ -295,7 +306,7 @@ body {
     flex: 1;
 }
 
-/* Contact Page Styles */
+/* --- Contact Page Components --- */
 .contact-card {
     padding: 3rem;
     background: white;
